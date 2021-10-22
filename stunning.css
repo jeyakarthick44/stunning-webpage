@@ -1,0 +1,213 @@
+body{
+    
+    font-family: 'Yantramanav', sans-serif;
+}
+
+#nav-bar{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+#logo{
+    width: 100px;
+    margin-left: 40px;
+}
+
+.menu-items{
+    text-decoration: none;
+    color: rgb(194, 188, 188);
+    margin-left: 45px;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+#account-btn{
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #4733e0;
+    background-color: #FFD8DB;
+    border:none;
+    border-radius: 20px;
+    padding: 20px 25px;
+    margin-right: 30px;
+}
+
+#main-content{
+    display: flex; 
+    width:100%;
+    height: 100vh;
+    margin-top: 80px;
+
+
+}
+
+#left-section{
+    width: 45%;
+    height:100%;
+    padding-left: 80px;
+    box-sizing: border-box; 
+    margin-top: 40px;   
+}
+
+#left-section h1{
+    font-size: 4rem;
+    font-weight: 700;
+    margin-top: 30px;
+    line-height: 1;
+    
+}
+
+#intro{
+    color: #757373;
+    margin: 0;
+    width: 70%;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+#dot-style{
+    color:#5443d6;
+    font-size: 80px;
+}
+
+#new-account-nav{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#new-account-nav button{
+    border:none;
+    padding: 12px 20px;
+    margin-right: 10px;
+    background-color: #5443d6;
+    color: white;
+    border-radius: 14px;
+    font-size: 0.625rem;
+}
+
+#new-account-nav a img{
+    width: 32px;
+    margin-right: 10px;
+    margin-top: 10px;
+    
+}
+
+.service-options{
+    height: 50px;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9F9F9;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+#selected-option{
+    background-color: white;
+    box-shadow: 1px 1px 20px 1px #d8d3d3;
+}
+.service-options img{
+    margin: 5px 20px;
+}
+
+
+.service-options p{
+    color: rgb(194, 188, 188);
+    margin-left: -20px;
+}
+
+.service-options h6{
+    font-size: 1rem;
+    width: 25%;
+    margin-left: -20px;
+    font-weight: 600;
+}
+
+
+#color1{
+    background-color: #FFD8DB;
+}
+
+#color2{
+    background-color: #FD6534;
+}
+
+#color3{
+    background-color: #9FD196;
+}
+
+#color4{
+    background-color: #FFE3A1;
+}
+
+.random-box{
+    height: 10px;
+    width: 20px;
+    border-radius: 25%;
+    margin-right: 20px;
+}
+
+
+
+#right-img-section{
+    width:55%;
+    height: 100%;
+    background-size: contain;
+}
+
+#cover-image{
+    margin-top: 20px;
+    
+}
+
+@media (max-width: 400px) {
+    #nav-bar {
+        width: 100vw;
+        height: auto;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 20px;
+    }
+
+    #main-content{
+        flex-direction: column;
+        width: 100vw;
+    }
+    #logo{
+        margin-left: 0;
+    }
+    #account-btn{
+        margin: 0 auto;
+    }
+    #left-section{
+        width: 100%;
+        padding-left: 50px;
+    }
+    #right-img-section{
+        width: 100vw;
+    }
+    #left-section h1{
+        font-size: 2rem;
+        line-height: 0.7;
+    }
+    #cover-image{
+        width: 100vw;
+        margin-top: 100px;
+    }
+    .service-options{
+        width: 70vw;
+        box-sizing: border-box;
+        
+    }
+  }
